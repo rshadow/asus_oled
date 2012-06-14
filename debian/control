@@ -1,0 +1,18 @@
+Source: asus-oled
+Section: unknown
+Priority: extra
+Maintainer: Roman V. Nikolaev <rshadow@rambler.ru>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+Vcs-Git: git://git@github.com:rshadow/asus_oled.git
+Vcs-Browser: https://github.com/rshadow/asus_oled
+
+Package: asus-oled
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Driver for Asus OLED display present in some Asus laptops
+ Driver for Asus OLED display present in some Asus laptops.
+ .
+ This package content the driver and daemon for Asus OLED display present in
+ some Asus laptops.
