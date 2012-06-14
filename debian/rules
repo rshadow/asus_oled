@@ -17,3 +17,5 @@ git-buildpackage:
 git-buildpackage-release:
 	git-buildpackage --git-upstream-branch=master --git-debian-branch=debian \
 		--git-tag
+	make clean
+	dh_clean
