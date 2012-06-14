@@ -1,10 +1,10 @@
 Source: asus-oled
-Section: unknown
-Priority: extra
+Section: misc
+Priority: optional
 Maintainer: Roman V. Nikolaev <rshadow@rambler.ru>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.2
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/rshadow/asus_oled
 Vcs-Git: git://git@github.com:rshadow/asus_oled.git
 Vcs-Browser: https://github.com/rshadow/asus_oled
 
