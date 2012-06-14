@@ -1,6 +1,6 @@
 Format: http://dep.debian.net/deps/dep5
 Upstream-Name: asus-oled-dkms
-Source: <url://example.com>
+Source: <http://svn.berlios.de/svnroot/repos/lapsus/trunk>
 
 Files: *
 Copyright: 2009 Jakub Schmidtke <sjakub@users.berlios.de>

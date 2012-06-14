@@ -12,4 +12,8 @@ override_dh_auto_install:
 	
 git-buildpackage:	
 	git-buildpackage --git-upstream-branch=master --git-debian-branch=debian \
-		--git-force-create --git-ignore-new
+		--git-ignore-new
+		
+git-buildpackage-release:
+	git-buildpackage --git-upstream-branch=master --git-debian-branch=debian \
+		--git-tag
