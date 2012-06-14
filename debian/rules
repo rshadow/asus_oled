@@ -1,13 +1,15 @@
 #!/usr/bin/make -f
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+export DH_VERBOSE=1
+export DH_OPTIONS=-v
 
 %:
-	dh $@ 
+	dh $@ --with dkms
 
-build:
-	cd module && make
-
-clean:
-	cd module && make clean
+override_dh_auto_install:
+	
+	
+git-buildpackage:	
+	git-buildpackage --git-upstream-branch=master --git-debian-branch=debian \
+		--git-force-create --git-ignore-new

@@ -1,17 +1,9 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: asus-oled
+Upstream-Name: asus-oled-dkms
 Source: <url://example.com>
 
 Files: *
 Copyright: 2009 Jakub Schmidtke <sjakub@users.berlios.de>
-License: GPL-2.0+
-
-Files: daemon/*
-Copyright: 2012 Roman V. Nikolaev <rshadow@rambler.ru>
-License: GPL-2.0+
-
-Files: dkms/*
-Copyright: 2012 Roman V. Nikolaev <rshadow@rambler.ru>
 License: GPL-2.0+
 
 Files: debian/*
