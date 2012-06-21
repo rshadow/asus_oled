@@ -28,6 +28,6 @@ git-buildpackage-release:
 	dh_clean
 
 override_dh_clean:
-	dh $@
+	dh_clean
 	make clean
 	rm -fr .pc
