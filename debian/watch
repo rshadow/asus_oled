@@ -1,0 +1,3 @@
+version=3
+http://developer.berlios.de/project/showfiles.php?group_id=8074 \
+    .*asus_oled-(.*)\.tar\.bz2

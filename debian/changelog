@@ -1,0 +1,5 @@
+asus-oled-dkms (0.04-1) unstable; urgency=low
+
+  * Initial Release. Closes: #582851
+
+ -- Roman V. Nikolaev <rshadow@rambler.ru>  Thu, 14 Jun 2012 12:16:47 +0400
