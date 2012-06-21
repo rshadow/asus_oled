@@ -25,5 +25,9 @@ git-buildpackage-release:
 		--git-tag \
 		--git-force-create \
 		--git-upstream-tree=upstream
-	make clean
 	dh_clean
+
+override_dh_clean:
+	dh $@
+	make clean
+	rm -fr .pc
