@@ -20,8 +20,10 @@ git-buildpackage:
 		
 git-buildpackage-release:
 	git-buildpackage \
-		--git-upstream-branch=master \
-		--git-debian-branch=debian \
-		--git-tag
+		--git-upstream-branch=upstream \
+		--git-debian-branch=master \
+		--git-tag \
+		--git-force-create \
+		--git-upstream-tree=upstream
 	make clean
 	dh_clean
