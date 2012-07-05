@@ -9,6 +9,9 @@ export DH_OPTIONS=-v
 
 override_dh_auto_install:
 	
+override_dh_auto_build:
+	# don't try to build the kernel module at package build time
+	# see #679981
 	
 git-buildpackage:	
 	git-buildpackage \

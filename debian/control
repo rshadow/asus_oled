@@ -5,11 +5,11 @@ Maintainer: Roman V. Nikolaev <rshadow@rambler.ru>
 Build-Depends: debhelper (>= 8.0.0), dkms
 Standards-Version: 3.9.3
 Homepage: http://lapsus.berlios.de/asus_oled.html
-Vcs-Git: git://git@github.com:rshadow/asus_oled.git
+Vcs-Git: git://github.com/rshadow/asus_oled.git
 Vcs-Browser: https://github.com/rshadow/asus_oled
 
 Package: asus-oled-dkms
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Driver for Asus OLED display present in some Asus laptops
  This is a driver for small OLED display device present in some Asus laptops.
