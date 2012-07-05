@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/rshadow/asus_oled.git
 Vcs-Browser: https://github.com/rshadow/asus_oled
 
 Package: asus-oled-dkms
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Driver for Asus OLED display present in some Asus laptops
  This is a driver for small OLED display device present in some Asus laptops.
