@@ -1,3 +1,9 @@
+asus-oled-dkms (0.04-2) unstable; urgency=low
+
+  * Apply debian patch from Evgeni Golov. Closes: #679981
+
+ -- Roman V. Nikolaev <rshadow@rambler.ru>  Thu, 05 Jul 2012 13:06:58 +0400
+
 asus-oled-dkms (0.04-1) unstable; urgency=low
 
   * Initial Release. Closes: #582851
