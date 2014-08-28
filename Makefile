@@ -13,7 +13,7 @@ MDIR := /lib/modules/$(KVER)/extra/
 PWD := $(shell pwd)
 
 default:
-	$(MAKE) -C $(KDIR) SUBDIRS=$(PWD) modules
+	$(MAKE) -C $(KDIR) SUBDIRS=$(PWD) modules -w
 
 install:
 	install -d $(MDIR)
